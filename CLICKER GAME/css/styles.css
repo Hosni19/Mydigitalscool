@@ -1,0 +1,166 @@
+
+
+html{
+    font-family: 'Fasthand', cursive;
+}
+body {
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
+    text-align: center;
+    padding: 0 ;
+    margin: 0;
+    
+}
+.scoree1{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+#title{
+    padding-top: 20px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    text-decoration: underline;
+    margin-bottom: 70px;
+}
+
+p {
+    color: white;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#buy {
+    padding: 20px;
+   
+    border-radius: 25px;
+    transition: transform .2s;
+   
+    
+    
+    
+}
+#buy-auto-clicker{
+    padding: 20px;
+ 
+border-radius: 25px;
+transition: transform .2s;
+
+
+}
+#buy:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+#buy-auto-clicker:hover {
+    
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#score{
+    opacity: 100%;
+   
+	padding-top: 30px;
+	color: #fff;
+    
+  
+	
+	
+
+}
+#score:hover{
+    opacity: 90%;
+    cursor:crosshair;
+    
+}
+#scoretext{
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.container{
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 400px;
+
+}
+.likess{
+    width: 20px; 
+    padding-left: 10px;
+    
+}
+#score2{
+    padding-top: 30px;
+display: none;
+margin : 0 auto ;
+
+}
+#score2:hover{
+    opacity: 90%;
+    cursor:crosshair;
+    
+}
+#score3{
+    padding-top: 30px;
+display: none;
+margin : 0 auto ;
+}
+#score3:hover{
+    opacity: 90%;
+    cursor:crosshair;
+    
+}
+
+#reset{
+    padding: 20px;
+ 
+border-radius: 25px;
+transition: transform .2s;
+}
+
+#reset:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#newsbar{
+    background-color: white;
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+#newsbar a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
